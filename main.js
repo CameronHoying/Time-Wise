@@ -1,5 +1,3 @@
-
-
 var start = document.getElementById('start');
 var reset = document.getElementById('reset');
 
@@ -32,10 +30,11 @@ function stopTimer(){
 }
 
 start.addEventListener('click', function(){
-  startTimer = setInterval(function() {
-    timer();
-    }, 1000);
-    
+    function startInterval(){
+        startTimer = setInterval(function() {
+            timer();
+        }, 1000);
+    }
     startInterval()
 })
 
