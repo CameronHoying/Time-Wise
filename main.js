@@ -30,13 +30,10 @@ function stopTimer(){
 }
 
 start.addEventListener('click', function(){
-    function startInterval(){
         startTimer = setInterval(function() {
             timer();
         }, 1000);
-    }
-    startInterval()
-})
+    })
 
 reset.addEventListener('click', function(){
     h.value = 0;
