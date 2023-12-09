@@ -5,7 +5,7 @@ var h = document.getElementById('hour');
 var m = document.getElementById('minute');
 var s = document.getElementById('sec');
 
-var starttimer = null;
+var startTimer = null;
 
 function timer(){
     if(h.value == 0 && m.value == 0 && s.value == 0){
