@@ -57,11 +57,12 @@ h1 {
 .semicolon {
     justify-self: center;
     align-self: center;
+
     font-size: 30px;
     margin: 0;
 }
 
-#pi {
+#p1 {
     grid-area: 2 / 2 / 2 / 4;
 } 
 
